@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="61.25" y="0.0">ProductManage.ProductRecognizer</node>
+    <node x="322.0" y="543.0">ProductManage.BasketManager</node>
+    <node x="0.0" y="871.0">ProductManage.StockManager</node>
+    <node x="0.0" y="543.0">ProductManage.Product</node>
+    <node x="436.0" y="871.0">TransactionManage.TransactionManager</node>
+    <node x="463.25" y="0.0">ProductManage.ProductGroup</node>
+    <node x="0.25" y="259.0">ProductManage.ProductRecognizer.BarcodeReader</node>
+    <node x="328.0" y="1154.0">TransactionManage.LogManager</node>
+    <node x="0.0" y="1154.0">TransactionManage.PaymentManager</node>
+    <node x="971.0" y="871.0">TransactionManage.Reciept</node>
+    <node x="0.0" y="107.0">ProductManage.ProductRecognizer.ProductIdReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ProductManage.ProductRecognizer.ProductIdReader" target="ProductManage.ProductRecognizer">
+      <point x="0.0" y="-51.0" />
+      <point x="-74.0" y="28.5" />
+    </edge>
+    <edge source="ProductManage.ProductRecognizer.BarcodeReader" target="ProductManage.ProductRecognizer">
+      <point x="104.5" y="-119.5" />
+      <point x="313.75" y="234.0" />
+      <point x="282.5" y="234.0" />
+      <point x="74.0" y="28.5" />
+    </edge>
+    <edge source="ProductManage.ProductRecognizer.BarcodeReader" target="ProductManage.ProductRecognizer.ProductIdReader">
+      <point x="-104.5" y="-119.5" />
+      <point x="104.75" y="234.0" />
+      <point x="136.0" y="234.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="130.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
